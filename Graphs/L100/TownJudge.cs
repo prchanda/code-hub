@@ -42,11 +42,11 @@ namespace CodeHub
 
     class TownJudge
     {
-        int n;
+        int numberOfPersons;
 
         public TownJudge(int N)
         {
-            n = N;
+            numberOfPersons = N;
         }
 
         public int Find(int[,] trusts)
@@ -68,7 +68,7 @@ namespace CodeHub
             }
             foreach (KeyValuePair<int,int> kvp in trustLookup)
             {
-                if(kvp.Value == n-1)
+                if(kvp.Value == numberOfPersons-1)
                 {
                     townJudgeLabel = kvp.Key;
                     break;
