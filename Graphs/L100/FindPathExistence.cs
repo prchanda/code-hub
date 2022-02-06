@@ -35,40 +35,39 @@ namespace CodeHub.Graphs.L100
         }  
 
         public string CheckIfPathExists(AdjacencyList<T> graph, T source, T destination)
-        {             
-            bool result = false;
-            DFS(graph, source, destination, ref result);
+        {
+            bool result = DFS(graph, source, destination);
             if(!result)
             {
                 for (int index = 0; index < graph.Vertices.Count; index++)
                 {
                     var vertex = graph.Vertices[index].Data;
-                    if(!isVisited.Contains(vertex))
-                        DFS(graph, vertex, destination, ref result);
-                    if(result)
+                    if(!isVisited.Contains(vertex) && DFS(graph, vertex, destination))                        
                         break;
                 }
             }
             return result ? "Yes" : "No";
         }
 
-        private void DFS(AdjacencyList<T> graph, T source, T destination, ref bool result)
+        private bool DFS(AdjacencyList<T> graph, T source, T destination)
         {            
             isVisited.Add(source);            
             List<T> neighbours = graph.GetNeighbours(source);
+            bool foundDestination = false;
             foreach (var neighbour in neighbours)
             {
                 if(!isVisited.Contains(neighbour))
                 {
                     if(neighbour.Equals(destination))
                     {
-                        result = true;
-                        return;
+                        foundDestination = true;
+                        break;
                     }
                     else
-                        DFS(graph, neighbour, destination, ref result);
+                        foundDestination = DFS(graph, neighbour, destination);
                 }
             }
+            return foundDestination;
         }
     }
 }
