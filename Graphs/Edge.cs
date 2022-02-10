@@ -5,7 +5,7 @@ namespace CodeHub.Graphs
         public Vertex<T> Neighbour {get;}
         public int Weight {get;}
 
-        public Edge(Vertex<T> neighbour, int weight)
+        public Edge(Vertex<T> neighbour, int weight=1)
         {
             Neighbour = neighbour;
             Weight = weight;
