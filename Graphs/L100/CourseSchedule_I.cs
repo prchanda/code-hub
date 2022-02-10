@@ -19,13 +19,13 @@ namespace CodeHub.Graphs.L100
 
 */
 
-    class CourseSchedule<T>
+    class CourseSchedule_I<T>
     {
         List<AdvancedVertex<T>> courses;
         Dictionary<T, int> indexLookup;
         T[,] courseDependencies;
         
-        public CourseSchedule(T[,] dependencies)
+        public CourseSchedule_I(T[,] dependencies)
         {
             courseDependencies = dependencies;
             courses = new List<AdvancedVertex<T>>(dependencies.GetLength(0));
