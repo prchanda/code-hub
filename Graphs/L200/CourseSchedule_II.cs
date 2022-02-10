@@ -26,6 +26,17 @@ namespace CodeHub.Graphs.L200
 
     Input: numCourses = 1, prerequisites = []
     Output: [0]
+
+
+    Solution Explaination:
+
+    1. The main idea is to detect if there is a circular dependency bewteen the courses, if thats true then it's not possible to take
+       all the courses.
+
+    2. In order to return the ordering of courses we are going to implement topological sort using DFS.
+    
+    3. We keep a recursion stack consisting of vertices visited on a graph walk. If at point of time we hit a vertex which is present in
+       recursion stack, then we have a cycle.
 */
 
     class CourseSchedule_II

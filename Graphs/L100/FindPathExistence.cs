@@ -24,6 +24,11 @@ namespace CodeHub.Graphs.L100
 
     Input: U = 1, V = 3 
     Output: Yes
+
+    
+    Solution Explaination:
+
+    Perform a DFS traversal of the graph from source and check if you encounter the destination on the path of traversal.
 */
     class PathFinder<T>
     {       
@@ -37,15 +42,6 @@ namespace CodeHub.Graphs.L100
         public string CheckIfPathExists(AdjacencyList<T> graph, T source, T destination)
         {
             bool result = DFS(graph, source, destination);
-            if(!result)
-            {
-                for (int index = 0; index < graph.Vertices.Count; index++)
-                {
-                    var vertex = graph.Vertices[index].Data;
-                    if(!isVisited.Contains(vertex) && DFS(graph, vertex, destination))                        
-                        break;
-                }
-            }
             return result ? "Yes" : "No";
         }
 

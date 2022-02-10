@@ -17,6 +17,13 @@ namespace CodeHub.Graphs.L100
     There are a total of 2 courses to take. To take course 1 you should have finished course 0, and to take course 0 you should also have finished 
     course 1. So it is impossible.
 
+
+    Solution Explaination:
+
+    1. The main idea is to detect if there is a circular dependency bewteen the courses, if thats true then it's not possible to take
+       all the courses.
+
+    2. To detect a cycle in a directed graph here we have implemented Disjoint data structure with Union and Find operation.
 */
 
     class CourseSchedule_I<T>

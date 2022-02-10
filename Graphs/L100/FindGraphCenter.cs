@@ -19,6 +19,12 @@ namespace CodeHub.Graphs.L100
     Input: edges = [[1,2],[2,3],[4,2]]
     Output: 2
 
+    
+    Solution Explaination:
+    
+    If the first element in 0th row is same as either of the first or second of any ith row, that means it is the common element, hence the center.
+    Else it has to be the second element of the 0th row as its a star graph.
+
 */
     class StarGraph
     {

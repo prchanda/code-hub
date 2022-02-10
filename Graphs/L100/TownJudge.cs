@@ -38,6 +38,14 @@ namespace CodeHub.Graphs.L100
     3. trust[i] are all different
     4. trust[i][0] != trust[i][1]
     5. 1 <= trust[i][0], trust[i][1] <= N
+
+
+    Solution Explaination:
+
+    1. Note down the number of trusts each person has on other in terms of number of incoming/outgoing edges, where each edge represent a trust.
+    2. If there is an incoming edge to a vertex / person increase the trust level of a person by 1, else if there is an outgoing edge decrease by 1.
+    3. At the end check which person has Trust Level = Number of Person - 1, that person is the town judge.
+
 */
 
     class TownJudge
