@@ -73,19 +73,18 @@ namespace CodeHub.Graphs.L200
         
         private bool IsCyclic(int sourceVertex, HashSet<int> visitedVertices, HashSet<int> recursionStack, Stack<int> topSortOutput)
         {
+            if(recursionStack.Contains(sourceVertex))
+                return true;
+            if(visitedVertices.Contains(sourceVertex))
+                return false;
             visitedVertices.Add(sourceVertex);
             recursionStack.Add(sourceVertex);
             
             var edges = vertices[sourceVertex].Edges;
             foreach(var edge in edges)
             {            
-                if(recursionStack.Contains(edge.Neighbour.Data))
+                if(IsCyclic(indexLookup[edge.Neighbour.Data], visitedVertices, recursionStack, topSortOutput))
                     return true;
-                else if(!visitedVertices.Contains(edge.Neighbour.Data))
-                {
-                    if(IsCyclic(indexLookup[edge.Neighbour.Data], visitedVertices, recursionStack, topSortOutput))
-                        return true;
-                }
             }
             topSortOutput.Push(sourceVertex);
             recursionStack.Remove(sourceVertex);
