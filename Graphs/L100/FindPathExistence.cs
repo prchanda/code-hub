@@ -52,8 +52,6 @@ namespace CodeHub.Graphs.L100
             bool foundDestination = false;
             foreach (var neighbour in neighbours)
             {
-                if(foundDestination)
-                    break;
                 if(!isVisited.Contains(neighbour))
                 {
                     if(neighbour.Equals(destination))
