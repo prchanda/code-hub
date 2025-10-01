@@ -28,8 +28,8 @@ The goal is not just to solve DSA problems, but to solve them **fast, accurately
 ### 📅 Week 1 – Warmup & Arrays
 | Problem | Difficulty | File |
 |---------|------------|------|
-| [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [TwoSum.cs](Easy/TwoSum.cs) |
-| [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [RemoveDuplicates.cs](Easy/RemoveDuplicates.cs) |
+| [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [TwoSum.cs](Month 1 – Foundations & Core Patterns/Arrays/Easy/TwoSum.cs) |
+| [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [RemoveDuplicates.cs](Month 1 – Foundations & Core Patterns/Arrays/Easy/RemoveDuplicates.cs) |
 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | [MaximumSubarray.cs](Medium/MaximumSubarray.cs) |
 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium | [SubarraySumK.cs](Medium/SubarraySumK.cs) |
 
