@@ -28,10 +28,11 @@ The goal is not just to solve DSA problems, but to solve them **fast, accurately
 ### 📅 Week 1 – Warmup & Arrays
 | Problem | Difficulty | File |
 |---------|------------|------|
-| [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [TwoSum.cs](Month_1–Foundations-Core-Patterns/Arrays/Easy/TwoSum.cs) |
-| [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [RemoveDuplicates.cs](Month_1–Foundations-Core-Patterns/Arrays/Easy/RemoveDuplicates.cs) |
-| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | [MaximumSubarray.cs](Medium/MaximumSubarray.cs) |
-| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium | [SubarraySumK.cs](Medium/SubarraySumK.cs) |
+| [Two Sum](https://leetcode.com/problems/two-sum/){:target="_blank"} | Easy | [TwoSum.cs](Month_1–Foundations-Core-Patterns/Arrays/Easy/TwoSum.cs) |
+| [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/){:target="_blank"} | Easy | [RemoveDuplicates.cs](Month_1–Foundations-Core-Patterns/Arrays/Easy/RemoveDuplicatesSortedArray.cs) |
+| [Three Sum](https://leetcode.com/problems/3sum/){:target="_blank"} | Medium | [ThreeSum.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/ThreeSum.cs) |
+| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/){:target="_blank"} | Medium | [MaximumSubarray.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/MaximumSubarray.cs) |
+| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/){:target="_blank"} | Medium | [SubarraySumK.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/SubarraySumK.cs) |
 
 ---
 
