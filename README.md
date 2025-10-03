@@ -33,6 +33,7 @@ The goal is not just to solve DSA problems, but to solve them **fast, accurately
 | [Three Sum](https://leetcode.com/problems/3sum/) | Medium | [ThreeSum.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/ThreeSum.cs) |
 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | [MaximumSubarray.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/MaximumSubarray.cs) |
 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium | [SubarraySumK.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/SubarraySumK.cs) |
+| [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [ProductExceptSelf.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/ProductExceptSelf.cs) |
 
 ---
 
@@ -145,3 +146,49 @@ The goal is not just to solve DSA problems, but to solve them **fast, accurately
 |---------|------------|------|
 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [RotateImage.cs](Medium/RotateImage.cs) |
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Medium | [SpiralMatrix.cs](Medium/SpiralMatrix.cs) |
+
+
+# 🔑 Core DSA Patterns
+
+This document lists all the **core DSA patterns** you need to recognize during problem-solving.  
+Each row explains **when to use** the pattern and gives **example problems**.
+
+---
+
+| Pattern | Usage | Examples |
+|---------|-------|----------|
+| **Sliding Window** | Subarrays or substrings, usually involving sums, counts, or distinct elements | ○ Longest substring without repeating characters <br> ○ Maximum sum subarray of size K <br> ○ Minimum window substring |
+| **Two Pointers** | Sorted arrays/strings, finding pairs/triplets, removing duplicates | ○ Two Sum (sorted) <br> ○ Three Sum <br> ○ Container With Most Water |
+| **Prefix Sum + Hashing** | Range sums, subarray sums, balancing counts, frequency maps | ○ Subarray Sum Equals K <br> ○ Continuous Subarray Divisible by K <br> ○ Longest equal 0–1 subarray |
+| **Binary Search (and on Answer)** | Sorted arrays, rotated arrays, search space problems, optimization (min/max) | ○ Search in Rotated Sorted Array <br> ○ Find Minimum in Rotated Sorted Array <br> ○ Capacity to Ship Packages in D Days |
+| **Greedy** | When local optimal decisions lead to global optimum | ○ Activity Selection (interval scheduling) <br> ○ Minimum Number of Platforms <br> ○ Huffman Coding |
+| **Dynamic Programming – 1D** | Optimal substructure + overlapping subproblems in linear states | ○ Climbing Stairs <br> ○ House Robber <br> ○ Jump Game |
+| **Dynamic Programming – 2D on Strings** | Subsequence/substring matching, transformations | ○ Longest Common Subsequence (LCS) <br> ○ Edit Distance <br> ○ Longest Palindromic Subsequence |
+| **Knapsack Variants (DP)** | Subset/partition/ways-to-make-sum problems | ○ 0/1 Knapsack <br> ○ Coin Change <br> ○ Target Sum |
+| **Grid DP** | Pathfinding and counting in 2D grids | ○ Unique Paths <br> ○ Minimum Path Sum |
+| **Backtracking** | Explore all possibilities with recursion + choices | ○ N-Queens <br> ○ Sudoku Solver <br> ○ Generate Subsets/Permutations |
+| **Divide & Conquer** | Splitting problems into independent halves | ○ Merge Sort <br> ○ Quick Sort <br> ○ Maximum Subarray (Divide & Conquer) |
+| **Graph – DFS/BFS** | Traversal, connectivity, island problems | ○ Number of Islands <br> ○ Rotten Oranges <br> ○ Word Ladder |
+| **Graph – Topological Sort** | Dependency ordering, DAG problems | ○ Course Schedule <br> ○ Alien Dictionary |
+| **Graph – Shortest Path** | Weighted graphs, minimum distance problems | ○ Dijkstra’s Algorithm <br> ○ Bellman-Ford <br> ○ Floyd-Warshall |
+| **Graph – MST / Union-Find** | Minimum spanning tree, connectivity, cycle detection | ○ Kruskal’s Algorithm <br> ○ Prim’s Algorithm <br> ○ Redundant Connection |
+| **Heap / Priority Queue** | Scheduling, k-th largest/smallest, streaming problems | ○ Kth Largest Element <br> ○ Merge K Sorted Lists <br> ○ Median of Data Stream |
+| **Intervals** | Overlapping ranges, merging intervals | ○ Merge Intervals <br> ○ Insert Interval <br> ○ Meeting Rooms |
+| **Monotonic Stack / Queue** | Next greater/smaller, sliding range problems | ○ Next Greater Element <br> ○ Largest Rectangle in Histogram <br> ○ Sliding Window Maximum |
+| **Bit Manipulation** | XOR tricks, subsets, bitmask states | ○ Single Number (using XOR) <br> ○ Subset Generation using Bits <br> ○ Count Set Bits |
+| **String Algorithms** | Efficient substring search, pattern matching, Trie problems | ○ KMP Algorithm <br> ○ Rabin-Karp <br> ○ Manacher’s Algorithm (palindrome) <br> ○ Trie-based Word Search |
+| **Math / Number Theory** | Modular arithmetic, combinatorics, GCD/LCM | ○ Fast Exponentiation (Pow) <br> ○ Modular Inverse <br> ○ GCD/LCM Problems |
+| **Tree (Binary Tree)** | Traversals, recursion-based tree problems | ○ Inorder/Preorder/Postorder Traversal <br> ○ Diameter of Binary Tree <br> ○ Lowest Common Ancestor |
+| **Binary Search Tree (BST)** | Search/insert/delete, order properties | ○ Validate BST <br> ○ Kth Smallest Element in BST <br> ○ Convert Sorted Array to BST |
+| **Segment Tree / Fenwick Tree** | Range queries with updates (sum, min, max) | ○ Range Sum Query (Mutable) <br> ○ Range Minimum Query |
+| **Advanced Graph** | Strongly connected components, bridges, flows | ○ Tarjan’s Algorithm (Bridges, SCC) <br> ○ Kosaraju’s Algorithm <br> ○ Max Flow / Bipartite Matching |
+
+---
+
+## ✅ How to Use
+- Start with easier patterns (Sliding Window, Two Pointers, Prefix Sum).  
+- Move towards intermediate ones (DP, Graphs, Monotonic Stack).  
+- Finally, tackle advanced ones (Segment Trees, SCC, Flow).  
+- After solving a problem, **mark which pattern it belongs to**.
+
+---
