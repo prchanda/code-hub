@@ -30,8 +30,8 @@ The goal is not just to solve DSA problems, but to solve them **fast, accurately
 |---------|------------|------|---------|
 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [TwoSum.cs](Month_1–Foundations-Core-Patterns/Arrays/Easy/TwoSum.cs) | Prefix Sum & Hashing |
 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [RemoveDuplicates.cs](Month_1–Foundations-Core-Patterns/Arrays/Easy/RemoveDuplicatesSortedArray.cs) | Two Pointers |
-| [Three Sum](https://leetcode.com/problems/3sum/) | Medium | [ThreeSum.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/ThreeSum.cs) | Two Pointers |
 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [BuySellStock.cs](Month_1–Foundations-Core-Patterns/Arrays/Easy/BuySellStock.cs) | Single Pass Array – Track Min/Max Difference |
+| [Three Sum](https://leetcode.com/problems/3sum/) | Medium | [ThreeSum.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/ThreeSum.cs) | Two Pointers |
 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | [MaximumSubarray.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/MaximumSubarray.cs) | Dynamic Programming (DP) |
 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium | [SubarraySumK.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/SubarraySumK.cs) | Prefix Sum & Hashing |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [ProductExceptSelf.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/ProductExceptSelf.cs) | Prefix Sum & Hashing |
