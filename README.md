@@ -26,14 +26,14 @@ The goal is not just to solve DSA problems, but to solve them **fast, accurately
 ---
 
 ### 📅 Week 1 – Warmup & Arrays
-| Problem | Difficulty | File |
-|---------|------------|------|
-| [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [TwoSum.cs](Month_1–Foundations-Core-Patterns/Arrays/Easy/TwoSum.cs) |
-| [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [RemoveDuplicates.cs](Month_1–Foundations-Core-Patterns/Arrays/Easy/RemoveDuplicatesSortedArray.cs) |
-| [Three Sum](https://leetcode.com/problems/3sum/) | Medium | [ThreeSum.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/ThreeSum.cs) |
-| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | [MaximumSubarray.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/MaximumSubarray.cs) |
-| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium | [SubarraySumK.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/SubarraySumK.cs) |
-| [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [ProductExceptSelf.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/ProductExceptSelf.cs) |
+| Problem | Difficulty | File | Pattern |
+|---------|------------|------|---------|
+| [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [TwoSum.cs](Month_1–Foundations-Core-Patterns/Arrays/Easy/TwoSum.cs) | Prefix Sum & Hashing |
+| [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [RemoveDuplicates.cs](Month_1–Foundations-Core-Patterns/Arrays/Easy/RemoveDuplicatesSortedArray.cs) | Two Pointers |
+| [Three Sum](https://leetcode.com/problems/3sum/) | Medium | [ThreeSum.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/ThreeSum.cs) | Two Pointers |
+| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | [MaximumSubarray.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/MaximumSubarray.cs) | Dynamic Programming (DP) |
+| [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium | [SubarraySumK.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/SubarraySumK.cs) | Prefix Sum & Hashing |
+| [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [ProductExceptSelf.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/ProductExceptSelf.cs) | Prefix Sum & Hashing |
 
 ---
 
@@ -147,6 +147,7 @@ The goal is not just to solve DSA problems, but to solve them **fast, accurately
 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [RotateImage.cs](Medium/RotateImage.cs) |
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Medium | [SpiralMatrix.cs](Medium/SpiralMatrix.cs) |
 
+---
 
 # 🔑 Core DSA Patterns
 
