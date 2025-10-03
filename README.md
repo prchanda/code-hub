@@ -31,9 +31,12 @@ The goal is not just to solve DSA problems, but to solve them **fast, accurately
 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | [TwoSum.cs](Month_1–Foundations-Core-Patterns/Arrays/Easy/TwoSum.cs) | Prefix Sum & Hashing |
 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | Easy | [RemoveDuplicates.cs](Month_1–Foundations-Core-Patterns/Arrays/Easy/RemoveDuplicatesSortedArray.cs) | Two Pointers |
 | [Three Sum](https://leetcode.com/problems/3sum/) | Medium | [ThreeSum.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/ThreeSum.cs) | Two Pointers |
+| [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | Easy | [BuySellStock.cs](Month_1–Foundations-Core-Patterns/Arrays/Easy/BuySellStock.cs) | Single Pass Array – Track Min/Max Difference |
 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | [MaximumSubarray.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/MaximumSubarray.cs) | Dynamic Programming (DP) |
 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | Medium | [SubarraySumK.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/SubarraySumK.cs) | Prefix Sum & Hashing |
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [ProductExceptSelf.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/ProductExceptSelf.cs) | Prefix Sum & Hashing |
+| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [LengthOfLongestSubstring.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/LengthOfLongestSubstring.cs) | Two Pointers |
+| [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Medium | [MinSubArrayLen.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/MinSubArrayLen.cs) | Two Pointers |
 
 ---
 
@@ -160,6 +163,7 @@ Each row explains **when to use** the pattern and gives **example problems**.
 |---------|-------|----------|
 | **Sliding Window** | Subarrays or substrings, usually involving sums, counts, or distinct elements | ○ Longest substring without repeating characters <br> ○ Maximum sum subarray of size K <br> ○ Minimum window substring |
 | **Two Pointers** | Sorted arrays/strings, finding pairs/triplets, removing duplicates | ○ Two Sum (sorted) <br> ○ Three Sum <br> ○ Container With Most Water |
+| **Single Pass Array – Track Min/Max Difference** | Find maximum (or minimum) difference between two elements with order constraint; often used in single-transaction profit or max-difference problems | ○ Best Time to Buy and Sell Stock <br> ○ Maximum Difference in Array <br> ○ Other single-transaction stock variants |
 | **Prefix Sum + Hashing** | Range sums, subarray sums, balancing counts, frequency maps | ○ Subarray Sum Equals K <br> ○ Continuous Subarray Divisible by K <br> ○ Longest equal 0–1 subarray |
 | **Binary Search (and on Answer)** | Sorted arrays, rotated arrays, search space problems, optimization (min/max) | ○ Search in Rotated Sorted Array <br> ○ Find Minimum in Rotated Sorted Array <br> ○ Capacity to Ship Packages in D Days |
 | **Greedy** | When local optimal decisions lead to global optimum | ○ Activity Selection (interval scheduling) <br> ○ Minimum Number of Platforms <br> ○ Huffman Coding |
