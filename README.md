@@ -37,8 +37,10 @@ The goal is not just to solve DSA problems, but to solve them **fast, accurately
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [ProductExceptSelf.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/ProductExceptSelf.cs) | Prefix Sum & Hashing |
 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [LengthOfLongestSubstring.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/LengthOfLongestSubstring.cs) | Two Pointers |
 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Medium | [MinSubArrayLen.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/MinSubArrayLen.cs) | Two Pointers |
-| [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Medium | [CheckInclusion.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/CheckInclusion.cs) | Slinding Window |
-| [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [CheckInclusion.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/RotateImage.cs) | Traspose & Reverse |
+| [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Medium | [CheckInclusion.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/CheckInclusion.cs) | Sliding Window |
+| [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [RotateImage.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/RotateImage.cs) | Transpose & Reverse |
+| [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Medium | [SpiralOrder.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/SpiralOrder.cs) | Boundary Shrinking |
+| [SetMatrixZeroes](https://leetcode.com/problems/set-matrix-zeroes/) | Medium | [SetMatrixZeroes.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/SetMatrixZeroes.cs) | Mark and Modify Later |
 
 ---
 
@@ -189,6 +191,9 @@ Each row explains **when to use** the pattern and gives **example problems**.
 | **Binary Search Tree (BST)** | Search/insert/delete, order properties | ○ Validate BST <br> ○ Kth Smallest Element in BST <br> ○ Convert Sorted Array to BST |
 | **Segment Tree / Fenwick Tree** | Range queries with updates (sum, min, max) | ○ Range Sum Query (Mutable) <br> ○ Range Minimum Query |
 | **Advanced Graph** | Strongly connected components, bridges, flows | ○ Tarjan’s Algorithm (Bridges, SCC) <br> ○ Kosaraju’s Algorithm <br> ○ Max Flow / Bipartite Matching |
+| **Transpose & Reverse** | Matrix rotation or reorientation problems where elements need to be shifted in a structured 2D pattern | ○ Rotate Image (90° clockwise or anti-clockwise) <br> ○ Mirror Matrix (horizontal/vertical flip) <br> ○ Matrix symmetry check <br> ○ Image transformation in 2D games or graphics |
+| **Boundary Shrinking** | Problems that involve traversing or processing a matrix layer by layer, shrinking the boundaries (top, bottom, left, right) after each pass | ○ Spiral Order Traversal <br> ○ Rotate Matrix Layer by Layer <br> ○ Printing Matrix in Concentric Squares <br> ○ Filling Matrix in Spiral Order |
+| **Mark and Modify Later** | Problems where updates depend on certain conditions, but changing values immediately would affect future checks — solved by marking first and modifying after a second pass | ○ Set Matrix Zeroes <br> ○ Game of Life <br> ○ Surrounded Regions <br> ○ Flood Fill with temporary markers |
 
 ---
 
