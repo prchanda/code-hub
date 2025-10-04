@@ -37,6 +37,8 @@ The goal is not just to solve DSA problems, but to solve them **fast, accurately
 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | Medium | [ProductExceptSelf.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/ProductExceptSelf.cs) | Prefix Sum & Hashing |
 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [LengthOfLongestSubstring.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/LengthOfLongestSubstring.cs) | Two Pointers |
 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | Medium | [MinSubArrayLen.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/MinSubArrayLen.cs) | Two Pointers |
+| [Permutation in String](https://leetcode.com/problems/permutation-in-string/) | Medium | [CheckInclusion.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/CheckInclusion.cs) | Slinding Window |
+| [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [CheckInclusion.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/RotateImage.cs) | Traspose & Reverse |
 
 ---
 
