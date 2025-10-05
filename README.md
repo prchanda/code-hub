@@ -41,6 +41,9 @@ The goal is not just to solve DSA problems, but to solve them **fast, accurately
 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [RotateImage.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/RotateImage.cs) | Transpose & Reverse |
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Medium | [SpiralOrder.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/SpiralOrder.cs) | Boundary Shrinking |
 | [SetMatrixZeroes](https://leetcode.com/problems/set-matrix-zeroes/) | Medium | [SetMatrixZeroes.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/SetMatrixZeroes.cs) | Mark and Modify Later |
+| [MergeIntervals](https://leetcode.com/problems/merge-intervals/) | Medium | [MergeIntervals.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/MergeIntervals.cs) | Sort + Sweep / Merge |
+| [InsertInterval](https://leetcode.com/problems/insert-interval/) | Medium | [InsertInterval.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/InsertInterval.cs) | Sort + Sweep / Merge |
+| [MergeIntervals](https://leetcode.com/problems/insert-interval/) | Medium | [MergeIntervals.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/MergeIntervals.cs) | Interval Scheduling / Activity Selection |
 
 ---
 
@@ -194,6 +197,8 @@ Each row explains **when to use** the pattern and gives **example problems**.
 | **Transpose & Reverse** | Matrix rotation or reorientation problems where elements need to be shifted in a structured 2D pattern | ○ Rotate Image (90° clockwise or anti-clockwise) <br> ○ Mirror Matrix (horizontal/vertical flip) <br> ○ Matrix symmetry check <br> ○ Image transformation in 2D games or graphics |
 | **Boundary Shrinking** | Problems that involve traversing or processing a matrix layer by layer, shrinking the boundaries (top, bottom, left, right) after each pass | ○ Spiral Order Traversal <br> ○ Rotate Matrix Layer by Layer <br> ○ Printing Matrix in Concentric Squares <br> ○ Filling Matrix in Spiral Order |
 | **Mark and Modify Later** | Problems where updates depend on certain conditions, but changing values immediately would affect future checks — solved by marking first and modifying after a second pass | ○ Set Matrix Zeroes <br> ○ Game of Life <br> ○ Surrounded Regions <br> ○ Flood Fill with temporary markers |
+| **Sort + Sweep / Merge** | Problems involving intervals or ranges where overlapping or connected elements need to be combined, counted, or processed efficiently — typically solved by sorting first and then sweeping through sequentially | ○ Merge Intervals <br> ○ Insert Interval <br> ○ Meeting Rooms II <br> ○ Minimum Number of Arrows to Burst Balloons <br> ○ Non-overlapping Intervals <br> ○ Employee Free Time <br> ○ Interval List Intersections |
+| **Interval Scheduling / Activity Selection** | Problems where you must select, remove, or schedule non-overlapping intervals optimally — typically solved by sorting intervals by **end time** and making greedy choices to maximize or minimize overlaps. | ○ Non-overlapping Intervals <br> ○ Activity Selection Problem <br> ○ Minimum Number of Arrows to Burst Balloons <br> ○ Meeting Rooms I <br> ○ Maximum Number of Events That Can Be Attended <br> ○ Task Scheduler (when intervals represent tasks) <br> ○ Video Stitching |
 
 ---
 
