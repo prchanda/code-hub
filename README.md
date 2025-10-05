@@ -43,7 +43,7 @@ The goal is not just to solve DSA problems, but to solve them **fast, accurately
 | [SetMatrixZeroes](https://leetcode.com/problems/set-matrix-zeroes/) | Medium | [SetMatrixZeroes.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/SetMatrixZeroes.cs) | Mark and Modify Later |
 | [MergeIntervals](https://leetcode.com/problems/merge-intervals/) | Medium | [MergeIntervals.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/MergeIntervals.cs) | Sort + Sweep / Merge |
 | [InsertInterval](https://leetcode.com/problems/insert-interval/) | Medium | [InsertInterval.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/InsertInterval.cs) | Sort + Sweep / Merge |
-| [MergeIntervals](https://leetcode.com/problems/insert-interval/) | Medium | [MergeIntervals.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/MergeIntervals.cs) | Interval Scheduling / Activity Selection |
+| [EraseOverlapIntervals](https://leetcode.com/problems/non-overlapping-intervals/) | Medium | [EraseOverlapIntervals.cs](Month_1–Foundations-Core-Patterns/Arrays/Medium/EraseOverlapIntervals.cs) | Interval Scheduling / Activity Selection |
 
 ---
 
