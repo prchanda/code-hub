@@ -48,21 +48,23 @@ The goal is not just to solve DSA problems, but to solve them **fast, accurately
 ---
 
 ### 📅 Week 2 – Strings & Sliding Window
-| Problem | Difficulty | File |
-|---------|------------|------|
-| [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [ValidAnagram.cs](Easy/ValidAnagram.cs) |
-| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | [ValidPalindrome.cs](Easy/ValidPalindrome.cs) |
+| Problem | Difficulty | File | Pattern |
+|---------|------------|------|---------|
+| [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [ValidAnagram.cs](Month_1–Foundations-Core-Patterns/Strings-Hashing/Easy/ValidAnagram.cs) | Hash Map + Character Frequency |
+| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | [ValidPalindrome.cs](Month_1–Foundations-Core-Patterns/Strings-Hashing/Easy/ValidPalindrome.cs) | Two Pointers |
+| [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [GroupAnagrams.cs](Month_1–Foundations-Core-Patterns/Strings-Hashing/Medium/GroupAnagrams.cs) | Hash Map + Character Frequency |
+| [Find Anagrams](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | Medium | [FindAnagrams.cs](Month_1–Foundations-Core-Patterns/Strings-Hashing/Medium/FindAnagrams.cs) | Hash Map + Character Frequency |
+| [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | [LongestConsecutive.cs](Month_1–Foundations-Core-Patterns/Strings-Hashing/Medium/LongestConsecutive.cs) | Hashing |
+| [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | [TwoSum-II.cs](Month_1–Foundations-Core-Patterns/Strings-Hashing/Medium/TwoSum-II.cs) | Two Pointers |
 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [LongestSubstring.cs](Medium/LongestSubstring.cs) |
 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | [MinimumWindow.cs](Hard/MinimumWindow.cs) |
 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Medium | [CharReplacement.cs](Medium/CharReplacement.cs) |
-| [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [GroupAnagrams.cs](Medium/GroupAnagrams.cs) |
-| [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | [LongestConsecutive.cs](Medium/LongestConsecutive.cs) |
 
 ---
 
 ### 📅 Week 3 – Binary Search
-| Problem | Difficulty | File |
-|---------|------------|------|
+| Problem | Difficulty | File | Pattern |
+|---------|------------|------|---------|
 | [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | [BinarySearch.cs](Easy/BinarySearch.cs) |
 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | Easy | [FirstBadVersion.cs](Easy/FirstBadVersion.cs) |
 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | [FindMinRotated.cs](Medium/FindMinRotated.cs) |
@@ -71,8 +73,8 @@ The goal is not just to solve DSA problems, but to solve them **fast, accurately
 ---
 
 ### 📅 Week 4 – Linked List
-| Problem | Difficulty | File |
-|---------|------------|------|
+| Problem | Difficulty | File | Pattern |
+|---------|------------|------|---------|
 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [ReverseLinkedList.cs](Easy/ReverseLinkedList.cs) |
 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [MergeTwoLists.cs](Easy/MergeTwoLists.cs) |
 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [LinkedListCycle.cs](Easy/LinkedListCycle.cs) |
@@ -81,8 +83,8 @@ The goal is not just to solve DSA problems, but to solve them **fast, accurately
 ---
 
 ### 📅 Week 5 – Stacks & Queues
-| Problem | Difficulty | File |
-|---------|------------|------|
+| Problem | Difficulty | File | Pattern |
+|---------|------------|------|---------|
 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [ValidParentheses.cs](Easy/ValidParentheses.cs) |
 | [Min Stack](https://leetcode.com/problems/min-stack/) | Medium | [MinStack.cs](Medium/MinStack.cs) |
 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | Easy | [NextGreaterElement.cs](Easy/NextGreaterElement.cs) |
@@ -92,8 +94,8 @@ The goal is not just to solve DSA problems, but to solve them **fast, accurately
 ---
 
 ### 📅 Week 6 – Trees
-| Problem | Difficulty | File |
-|---------|------------|------|
+| Problem | Difficulty | File | Pattern |
+|---------|------------|------|---------|
 | [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | Easy | [MaxDepthTree.cs](Easy/MaxDepthTree.cs) |
 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | Easy | [InvertTree.cs](Easy/InvertTree.cs) |
 | [Validate BST](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [ValidateBST.cs](Medium/ValidateBST.cs) |
@@ -103,8 +105,8 @@ The goal is not just to solve DSA problems, but to solve them **fast, accurately
 ---
 
 ### 📅 Week 7 – Graphs
-| Problem | Difficulty | File |
-|---------|------------|------|
+| Problem | Difficulty | File | Pattern |
+|---------|------------|------|---------|
 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | Medium | [NumberOfIslands.cs](Medium/NumberOfIslands.cs) |
 | [Shortest Path in Binary Matrix](https://leetcode.com/problems/shortest-path-in-binary-matrix/) | Medium | [ShortestPathMatrix.cs](Medium/ShortestPathMatrix.cs) |
 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | Medium | [RottingOranges.cs](Medium/RottingOranges.cs) |
@@ -115,8 +117,8 @@ The goal is not just to solve DSA problems, but to solve them **fast, accurately
 ---
 
 ### 📅 Week 8 – Dynamic Programming
-| Problem | Difficulty | File |
-|---------|------------|------|
+| Problem | Difficulty | File | Pattern |
+|---------|------------|------|---------|
 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | Easy | [ClimbStairs.cs](Easy/ClimbStairs.cs) |
 | [House Robber](https://leetcode.com/problems/house-robber/) | Medium | [HouseRobber.cs](Medium/HouseRobber.cs) |
 | [Coin Change](https://leetcode.com/problems/coin-change/) | Medium | [CoinChange.cs](Medium/CoinChange.cs) |
@@ -132,8 +134,8 @@ The goal is not just to solve DSA problems, but to solve them **fast, accurately
 ---
 
 ### 📅 Week 9 – Backtracking
-| Problem | Difficulty | File |
-|---------|------------|------|
+| Problem | Difficulty | File | Pattern |
+|---------|------------|------|---------|
 | [Subsets](https://leetcode.com/problems/subsets/) | Medium | [Subsets.cs](Medium/Subsets.cs) |
 | [Permutations](https://leetcode.com/problems/permutations/) | Medium | [Permutations.cs](Medium/Permutations.cs) |
 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | Medium | [CombinationSum.cs](Medium/CombinationSum.cs) |
@@ -143,8 +145,8 @@ The goal is not just to solve DSA problems, but to solve them **fast, accurately
 ---
 
 ### 📅 Week 10 – Advanced Data Structures
-| Problem | Difficulty | File |
-|---------|------------|------|
+| Problem | Difficulty | File | Pattern |
+|---------|------------|------|---------|
 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | Medium | [Trie.cs](Medium/Trie.cs) |
 | [Design Add and Search Words](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | Medium | [WordDictionary.cs](Medium/WordDictionary.cs) |
 | [Range Sum Query – Mutable](https://leetcode.com/problems/range-sum-query-mutable/) | Medium | [RangeSumQuery.cs](Medium/RangeSumQuery.cs) |
@@ -152,8 +154,8 @@ The goal is not just to solve DSA problems, but to solve them **fast, accurately
 ---
 
 ### 📅 Week 11 – Matrices
-| Problem | Difficulty | File |
-|---------|------------|------|
+| Problem | Difficulty | File | Pattern |
+|---------|------------|------|---------|
 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [RotateImage.cs](Medium/RotateImage.cs) |
 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) | Medium | [SpiralMatrix.cs](Medium/SpiralMatrix.cs) |
 
