@@ -52,13 +52,19 @@ The goal is not just to solve DSA problems, but to solve them **fast, accurately
 |---------|------------|------|---------|
 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | [ValidAnagram.cs](Month_1–Foundations-Core-Patterns/Strings-Hashing/Easy/ValidAnagram.cs) | Hash Map + Character Frequency |
 | [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) | Easy | [ValidPalindrome.cs](Month_1–Foundations-Core-Patterns/Strings-Hashing/Easy/ValidPalindrome.cs) | Two Pointers |
+| [Design HashMap](https://leetcode.com/problems/design-hashmap/) | Easy | [HashMap.cs](Month_1–Foundations-Core-Patterns/Strings-Hashing/Easy/HashMap.cs) | List traversal |
 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | [GroupAnagrams.cs](Month_1–Foundations-Core-Patterns/Strings-Hashing/Medium/GroupAnagrams.cs) | Hash Map + Character Frequency |
 | [Find Anagrams](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | Medium | [FindAnagrams.cs](Month_1–Foundations-Core-Patterns/Strings-Hashing/Medium/FindAnagrams.cs) | Hash Map + Character Frequency |
 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | Medium | [LongestConsecutive.cs](Month_1–Foundations-Core-Patterns/Strings-Hashing/Medium/LongestConsecutive.cs) | Hashing |
 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | Medium | [TwoSum-II.cs](Month_1–Foundations-Core-Patterns/Strings-Hashing/Medium/TwoSum-II.cs) | Two Pointers |
-| [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Medium | [LongestSubstring.cs](Medium/LongestSubstring.cs) |
-| [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | [MinimumWindow.cs](Hard/MinimumWindow.cs) |
-| [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Medium | [CharReplacement.cs](Medium/CharReplacement.cs) |
+| [Contiguous Array](https://leetcode.com/problems/contiguous-array/) | Medium | [ContiguousArray.cs](Month_1–Foundations-Core-Patterns/Strings-Hashing/Medium/ContiguousArray.cs) | Prefix Sum & Hashing |
+| [Longest Palindrome](https://leetcode.com/problems/longest-palindromic-substring/) | Medium | [LongestPalindrome.cs](Month_1–Foundations-Core-Patterns/Strings-Hashing/Medium/LongestPalindrome.cs) | Two Pointers |
+| [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) | Medium | [ValidSudoku.cs](Month_1–Foundations-Core-Patterns/Strings-Hashing/Medium/ValidSudoku.cs) | Hashing |
+| [String Compression](https://leetcode.com/problems/string-compression/) | Medium | [StringCompression.cs](Month_1–Foundations-Core-Patterns/Strings-Hashing/Medium/StringCompression.cs) | Two Pointers |
+| [Palindrome Partioning](https://leetcode.com/problems/palindrome-partitioning/) | Medium | [PalindromePartitioning.cs](Month_1–Foundations-Core-Patterns/Strings-Hashing/Medium/PalindromePartitioning.cs) | Backtracking |
+| [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | [TopKFrequent.cs](Month_1–Foundations-Core-Patterns/Strings-Hashing/Medium/TopKFrequent.cs) | Top K |
+| [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | Medium | [CharReplacement.cs](Month_1–Foundations-Core-Patterns/Strings-Hashing/Medium/CharacterReplacement.cs) | Two Pointers |
+| [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | Hard | [MinimumWindow.cs](Month_1–Foundations-Core-Patterns/Strings-Hashing/Hard/MinimumWindow.cs) | Sliding Window |
 
 ---
 
