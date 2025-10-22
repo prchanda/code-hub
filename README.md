@@ -71,9 +71,11 @@ The goal is not just to solve DSA problems, but to solve them **fast, accurately
 ### 📅 Week 3 – Binary Search
 | Problem | Difficulty | File | Pattern |
 |---------|------------|------|---------|
-| [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | [BinarySearch.cs](Easy/BinarySearch.cs) |
-| [First Bad Version](https://leetcode.com/problems/first-bad-version/) | Easy | [FirstBadVersion.cs](Easy/FirstBadVersion.cs) |
-| [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | [FindMinRotated.cs](Medium/FindMinRotated.cs) |
+| [Binary Search](https://leetcode.com/problems/binary-search/) | Easy | [BinarySearch.cs](Month_1–Foundations-Core-Patterns/Binary_Search-Recursion/Easy/Search.cs) | Binary Search |
+| [Search Insert Position](https://leetcode.com/problems/search-insert-position/) | Easy | [SearchInsert.cs](Month_1–Foundations-Core-Patterns/Binary_Search-Recursion/Easy/SearchInsert.cs) | Binary Search |
+| [First Bad Version](https://leetcode.com/problems/first-bad-version/) | Easy | [FirstBadVersion.cs](Month_1–Foundations-Core-Patterns/Binary_Search-Recursion/Easy/FirstBadVersion.cs) | Binary Search |
+| [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | [RotatedSearch.cs](Month_1–Foundations-Core-Patterns/Binary_Search-Recursion/Medium/RotatedSearch.cs) | Binary Search |
+| [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | [FindMinRotated.cs](Month_1–Foundations-Core-Patterns/Binary_Search-Recursion/Medium/FindMinRotated.cs) | Binary Search |
 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | [MedianSortedArrays.cs](Hard/MedianSortedArrays.cs) |
 
 ---
