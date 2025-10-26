@@ -76,6 +76,10 @@ The goal is not just to solve DSA problems, but to solve them **fast, accurately
 | [First Bad Version](https://leetcode.com/problems/first-bad-version/) | Easy | [FirstBadVersion.cs](Month_1–Foundations-Core-Patterns/Binary_Search-Recursion/Easy/FirstBadVersion.cs) | Binary Search |
 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | Medium | [RotatedSearch.cs](Month_1–Foundations-Core-Patterns/Binary_Search-Recursion/Medium/RotatedSearch.cs) | Binary Search |
 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | Medium | [FindMinRotated.cs](Month_1–Foundations-Core-Patterns/Binary_Search-Recursion/Medium/FindMinRotated.cs) | Binary Search |
+| [Subsets](https://leetcode.com/problems/subsets/) | Medium | [Subsets.cs](Month_1–Foundations-Core-Patterns/Binary_Search-Recursion/Medium/Subsets.cs) | Binary Search |
+| [Subsets II](https://leetcode.com/problems/subsets-ii/) | Medium | [SubsetsWithDup.cs](Month_1–Foundations-Core-Patterns/Binary_Search-Recursion/Medium/SubsetsWithDup.cs) | Binary Search |
+| [Combinations](https://leetcode.com/problems/combinations/) | Medium | [Combine.cs](Month_1–Foundations-Core-Patterns/Binary_Search-Recursion/Medium/Combine.cs) | Binary Search |
+| [Permutations](https://leetcode.com/problems/permutations/) | Medium | [Permute.cs](Month_1–Foundations-Core-Patterns/Binary_Search-Recursion/Medium/Permute.cs) | Binary Search |
 | [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Hard | [MedianSortedArrays.cs](Hard/MedianSortedArrays.cs) |
 
 ---
