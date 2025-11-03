@@ -91,16 +91,16 @@ The goal is not just to solve DSA problems, but to solve them **fast, accurately
 |---------|------------|------|---------|
 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [ReverseLinkedList.cs](Month_1–Foundations-Core-Patterns/LinkedList-Stack/Easy/ReverseLinkedList.cs) | Two Pointers |
 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [MergeTwoLists.cs](Month_1–Foundations-Core-Patterns/LinkedList-Stack/Easy/MergeTwoLists.cs) | Dummy Node |
-| [Remove Nth Node from End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | [RemoveNthFromEnd.cs](Month_1–Foundations-Core-Patterns/LinkedList-Stack/Medium/RemoveNthFromEnd.cs) | Slow & Fast pointers |
 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [LinkedListCycle.cs](Month_1–Foundations-Core-Patterns/LinkedList-Stack/Easy/LinkedListCycle.cs) | Slow & Fast pointers |
+| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [ValidParentheses.cs](Month_1–Foundations-Core-Patterns/LinkedList-Stack/Easy/ValidParentheses.cs) | Stack |
+| [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | Easy | [NextGreaterElement.cs](Month_1–Foundations-Core-Patterns/LinkedList-Stack/Easy/NextGreaterElement.cs) | Stack |
+| [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [QueueUsingStacks.cs](Month_1–Foundations-Core-Patterns/LinkedList-Stack/Easy/QueueUsingStacks.cs) | Stack |
+| [Remove Nth Node from End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | [RemoveNthFromEnd.cs](Month_1–Foundations-Core-Patterns/LinkedList-Stack/Medium/RemoveNthFromEnd.cs) | Slow & Fast pointers |
 | [Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | [ReorderList.cs](Month_1–Foundations-Core-Patterns/LinkedList-Stack/Medium/ReorderList.cs) | Slow & Fast pointers |
 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | Medium | [LRUCache.cs](Month_1–Foundations-Core-Patterns/LinkedList-Stack/Medium/LRUCache.cs) | LinkedList & Dictionary |
-| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | Easy | [ValidParentheses.cs](Month_1–Foundations-Core-Patterns/LinkedList-Stack/Easy/ValidParentheses.cs) | Stack |
 | [Min Stack](https://leetcode.com/problems/min-stack/) | Medium | [MinStack.cs](Month_1–Foundations-Core-Patterns/LinkedList-Stack/Medium/MinStack.cs) | Stack |
 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | Medium | [EvaluateReversePolishNotation.cs](Month_1–Foundations-Core-Patterns/LinkedList-Stack/Medium/EvaluateReversePolishNotation.cs) | Stack |
-| [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | Easy | [NextGreaterElement.cs](Month_1–Foundations-Core-Patterns/LinkedList-Stack/Easy/NextGreaterElement.cs) | Stack |
 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | Medium | [DailyTemperatures.cs](Month_1–Foundations-Core-Patterns/LinkedList-Stack/Medium/DailyTemperatures.cs) | Stack |
-| [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [QueueUsingStacks.cs](Month_1–Foundations-Core-Patterns/LinkedList-Stack/Easy/QueueUsingStacks.cs) | Stack |
 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/description/) | Medium | [CircularQueue.cs](Month_1–Foundations-Core-Patterns/LinkedList-Stack/Medium/CircularQueue.cs) | Two pointers |
 
 ---
