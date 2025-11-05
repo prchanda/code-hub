@@ -27,13 +27,15 @@ public class Solution
 
 // Recursion
 
-public class Solution {
-    public ListNode MergeTwoLists(ListNode list1, ListNode list2) {
-        if(list1 == null)
+public class Solution
+{
+    public ListNode MergeTwoLists(ListNode list1, ListNode list2)
+    {
+        if (list1 == null)
             return list2;
-        if(list2 == null)
+        if (list2 == null)
             return list1;
-        if(list1.val<list2.val)
+        if (list1.val < list2.val)
         {
             list1.next = MergeTwoLists(list1.next, list2);
             return list1;
@@ -45,3 +47,8 @@ public class Solution {
         }
     }
 }
+
+/*  
+    Time Complexity: O(n + m) - We traverse both linked lists once, where n and m are the lengths of the two lists.
+    Space Complexity: O(1) - We use a constant amount of extra space for the iterative approach. For the recursive approach, the space complexity is O(n + m) due to the recursion stack.
+*/

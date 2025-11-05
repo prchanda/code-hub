@@ -1,43 +1,54 @@
-public class MinStack {
+public class MinStack
+{
     Stack<long> stack;
     long min;
 
-    public MinStack() {
+    public MinStack()
+    {
         stack = new Stack<long>();
     }
-    
-    public void Push(int val) {
-        if(stack.Count==0)
+
+    public void Push(int val)
+    {
+        if (stack.Count == 0)
         {
-            stack.Push(0    );
+            stack.Push(0);
             min = val;
         }
         else
         {
             long diff = (long)val - min;
             stack.Push(diff);
-            if(diff<0)
+            if (diff < 0)
                 min = val;
         }
     }
-    
-    public void Pop() {
-        if (stack.Count == 0) 
+
+    public void Pop()
+    {
+        if (stack.Count == 0)
             return;
-        
-        long diff = stack.Pop();        
-        if(diff<0)
-        {            
+
+        long diff = stack.Pop();
+        if (diff < 0)
+        {
             min = min - diff;
         }
     }
-    
-    public int Top() {
+
+    public int Top()
+    {
         long diff = stack.Peek();
-        return diff>=0 ? (int)(min + diff) : (int)min;
+        return diff >= 0 ? (int)(min + diff) : (int)min;
     }
-    
-    public int GetMin() {
+
+    public int GetMin()
+    {
         return (int)min;
     }
 }
+
+/*  
+    Time Complexity: O(1) - All operations (Push, Pop, Top, GetMin) are performed in constant time.
+    Space Complexity: O(n) - In the worst case, we may store all elements in the stack.
+*/

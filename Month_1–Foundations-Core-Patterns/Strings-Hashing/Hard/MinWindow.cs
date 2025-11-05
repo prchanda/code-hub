@@ -39,3 +39,8 @@ public class Solution {
         return ans[0] == -1 ? "" : s.Substring(ans[1], ans[0]);
     }
 }
+
+/*  
+    Time Complexity: O(n + m) - We traverse the string s once and the string t once, where n is the length of s and m is the length of t.
+    Space Complexity: O(m) - We use dictionaries to store character counts for t and the current window in s.
+*/

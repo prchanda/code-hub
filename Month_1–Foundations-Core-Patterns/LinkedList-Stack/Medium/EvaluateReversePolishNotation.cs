@@ -1,8 +1,12 @@
-public class Solution {
-    public int EvalRPN(string[] tokens) {
+public class Solution
+{
+    public int EvalRPN(string[] tokens)
+    {
         Stack<int> stack = new Stack<int>();
-        foreach (var token in tokens) {
-            switch (token) {
+        foreach (var token in tokens)
+        {
+            switch (token)
+            {
                 case "+":
                     stack.Push(stack.Pop() + stack.Pop());
                     break;
@@ -31,3 +35,8 @@ public class Solution {
         return stack.Pop();
     }
 }
+
+/*  
+    Time Complexity: O(n) - We traverse the tokens array once.
+    Space Complexity: O(n) - In the worst case, we may push all numbers onto the stack.
+*/

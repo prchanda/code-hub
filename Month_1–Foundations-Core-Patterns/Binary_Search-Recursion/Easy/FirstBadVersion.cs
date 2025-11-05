@@ -18,3 +18,8 @@ public class Solution : VersionControl
         return left; // or right — both point to the first bad version
     }
 }
+
+/*  
+    Time Complexity: O(log n) - We halve the search space with each iteration.
+    Space Complexity: O(1) - We use a constant amount of extra space.
+*/

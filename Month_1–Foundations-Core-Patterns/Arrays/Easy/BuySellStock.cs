@@ -20,3 +20,8 @@ public class Solution
         return maxProfit;
     }
 }
+
+/*  
+    Time Complexity: O(n) - We traverse the prices array once.
+    Space Complexity: O(1) - We use a constant amount of extra space.
+*/

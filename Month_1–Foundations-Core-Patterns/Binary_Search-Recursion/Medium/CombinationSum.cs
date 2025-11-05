@@ -27,3 +27,8 @@ public class Solution
         }
     }
 }
+
+/*  
+    Time Complexity: O(2^t * k) - where t is the target value and k is the average length of combinations. In the worst case, we explore all combinations.
+    Space Complexity: O(k) - The maximum depth of the recursion tree can go up to k, where k is the target divided by the smallest candidate.
+*/

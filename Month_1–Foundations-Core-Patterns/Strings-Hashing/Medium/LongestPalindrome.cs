@@ -1,10 +1,13 @@
-public class Solution {
-    public string LongestPalindrome(string s) {
+public class Solution
+{
+    public string LongestPalindrome(string s)
+    {
         if (string.IsNullOrEmpty(s)) return "";
 
         int start = 0, end = 0;
 
-        for (int i = 0; i < s.Length; i++) {
+        for (int i = 0; i < s.Length; i++)
+        {
             // Case 1: Odd length palindrome (center at i)
             int len1 = ExpandFromCenter(s, i, i);
 
@@ -13,7 +16,8 @@ public class Solution {
 
             int len = Math.Max(len1, len2);
 
-            if (len > end - start) {
+            if (len > end - start)
+            {
                 start = i - (len - 1) / 2;
                 end = i + len / 2;
             }
@@ -22,8 +26,10 @@ public class Solution {
         return s.Substring(start, end - start + 1);
     }
 
-    private int ExpandFromCenter(string s, int left, int right) {
-        while (left >= 0 && right < s.Length && s[left] == s[right]) {
+    private int ExpandFromCenter(string s, int left, int right)
+    {
+        while (left >= 0 && right < s.Length && s[left] == s[right])
+        {
             left--;
             right++;
         }
@@ -31,3 +37,8 @@ public class Solution {
         return right - left - 1;
     }
 }
+
+/*  
+    Time Complexity: O(n^2) - We expand around each character (and between characters) in the string, leading to a quadratic time complexity in the worst case.
+    Space Complexity: O(1) - We use a constant amount of extra space.
+*/

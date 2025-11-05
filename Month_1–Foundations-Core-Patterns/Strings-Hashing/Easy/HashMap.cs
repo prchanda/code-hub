@@ -78,3 +78,12 @@ public class MyHashMap
         }
     }
 }
+
+/*  
+    Time Complexity: 
+        Put: O(n/k) - In the worst case, we may have to traverse the entire bucket list, where n is the number of keys and k is the number of buckets.
+        Get: O(n/k) - Similar to Put, we may have to traverse the entire bucket list.
+        Remove: O(n/k) - Similar to Put and Get.
+
+    Space Complexity: O(n) - In the worst case, we may store all n keys in the hash map.
+*/

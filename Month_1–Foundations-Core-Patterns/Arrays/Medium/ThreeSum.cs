@@ -1,33 +1,40 @@
-public class Solution {
-    public IList<IList<int>> ThreeSum(int[] nums) {
+public class Solution
+{
+    public IList<IList<int>> ThreeSum(int[] nums)
+    {
         IList<IList<int>> output = new List<IList<int>>();
         Array.Sort(nums);
-        for(int index=0; index<nums.Length-2; index++)
+        for (int index = 0; index < nums.Length - 2; index++)
         {
-            if(index>0 && nums[index]==nums[index-1])
+            if (index > 0 && nums[index] == nums[index - 1])
                 continue;
             int left = index + 1;
-            int right = nums.Length-1;
-            while(left<right)
+            int right = nums.Length - 1;
+            while (left < right)
             {
-                int sum = nums[index]+nums[left]+nums[right];
-                if(sum == 0)
+                int sum = nums[index] + nums[left] + nums[right];
+                if (sum == 0)
                 {
-                    output.Add(new List<int>{nums[index], nums[left], nums[right]});
+                    output.Add(new List<int> { nums[index], nums[left], nums[right] });
                     left++;
                     right--;
 
-                    while(left<right && nums[left]==nums[left-1])
+                    while (left < right && nums[left] == nums[left - 1])
                         left++;
-                    while(left<right && nums[right]==nums[right+1])
+                    while (left < right && nums[right] == nums[right + 1])
                         right--;
                 }
-                else if(sum<0)
+                else if (sum < 0)
                     left++;
                 else
                     right--;
             }
-        }        
+        }
         return output;
     }
 }
+
+/*  
+    Time Complexity: O(n^2) - We have a nested loop where the outer loop runs n times and the inner loop runs in O(n) time.
+    Space Complexity: O(k) - We use extra space to store the output list, where k is the number of unique triplets found.
+*/

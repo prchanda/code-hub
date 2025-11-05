@@ -21,3 +21,8 @@ public class Solution
         return nums[left];
     }
 }
+
+/*  
+    Time Complexity: O(log n) - We halve the search space with each iteration.
+    Space Complexity: O(1) - We use a constant amount of extra space.
+*/

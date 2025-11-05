@@ -29,3 +29,8 @@ public class Solution
         return maxLen;
     }
 }
+
+/*  
+    Time Complexity: O(n) - We traverse the nums array once.
+    Space Complexity: O(n) - In the worst case, we may store all prefix sums in the dictionary.
+*/

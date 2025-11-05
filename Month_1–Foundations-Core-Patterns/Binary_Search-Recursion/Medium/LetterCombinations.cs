@@ -26,3 +26,8 @@ public class Solution {
         }
     }
 }
+
+/*  
+    Time Complexity: O(4^n) - where n is the length of the input digits. Each digit can map to up to 4 letters, leading to a maximum of 4^n combinations.
+    Space Complexity: O(n) - The maximum depth of the recursion tree can go up to n, where n is the length of the input digits.
+*/

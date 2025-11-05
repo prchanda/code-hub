@@ -44,3 +44,11 @@ public class LRUCache
         cache[key] = newNode;
     }
 }
+
+/*  
+    Time Complexity: 
+        Get: O(1) - Both dictionary lookup and linked list operations (remove and add) are O(1).
+        Put: O(1) - Dictionary operations and linked list operations are O(1).
+
+    Space Complexity: O(capacity) - We store up to 'capacity' number of items in the cache.
+*/

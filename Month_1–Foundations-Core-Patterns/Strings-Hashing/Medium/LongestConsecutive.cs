@@ -1,23 +1,30 @@
-public class Solution {
-    public int LongestConsecutive(int[] nums) {
+public class Solution
+{
+    public int LongestConsecutive(int[] nums)
+    {
         HashSet<int> lookup = new HashSet<int>(nums);
-        int length = 0,maxLength=0;
+        int length = 0, maxLength = 0;
 
-        foreach(int num in lookup)
+        foreach (int num in lookup)
         {
-            if(!lookup.Contains(num-1))
+            if (!lookup.Contains(num - 1))
             {
                 int currentNum = num;
-                length=1;
-                while(lookup.Contains(currentNum+1))
+                length = 1;
+                while (lookup.Contains(currentNum + 1))
                 {
                     length++;
                     currentNum++;
                 }
-                if(length>maxLength)
+                if (length > maxLength)
                     maxLength = length;
             }
         }
         return maxLength;
     }
 }
+
+/*  
+    Time Complexity: O(n) - We traverse the nums array once and each number is processed at most twice.
+    Space Complexity: O(n) - We use a set to store the elements.
+*/

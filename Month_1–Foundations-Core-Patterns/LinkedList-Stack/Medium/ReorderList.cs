@@ -1,10 +1,13 @@
-public class Solution {
-    public void ReorderList(ListNode head) {
+public class Solution
+{
+    public void ReorderList(ListNode head)
+    {
         if (head == null || head.next == null)
             return;
 
         ListNode fast = head, slow = head;
-        while (fast != null && fast.next != null) {
+        while (fast != null && fast.next != null)
+        {
             slow = slow.next;
             fast = fast.next.next;
         }
@@ -14,7 +17,8 @@ public class Solution {
         second = ReverseList(second);
 
         ListNode first = head;
-        while (second != null) {
+        while (second != null)
+        {
             ListNode temp1 = first.next;
             ListNode temp2 = second.next;
 
@@ -26,7 +30,8 @@ public class Solution {
         }
     }
 
-    private ListNode ReverseList(ListNode head) {
+    private ListNode ReverseList(ListNode head)
+    {
         if (head == null || head.next == null)
             return head;
 
@@ -36,3 +41,8 @@ public class Solution {
         return node;
     }
 }
+
+/*  
+    Time Complexity: O(n) - We traverse the linked list a constant number of times, where n is the number of nodes in the list.
+    Space Complexity: O(1) - We use a constant amount of extra space.
+*/

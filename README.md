@@ -96,6 +96,7 @@ The goal is not just to solve DSA problems, but to solve them **fast, accurately
 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | Easy | [NextGreaterElement.cs](Month_1–Foundations-Core-Patterns/LinkedList-Stack/Easy/NextGreaterElement.cs) | Stack |
 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | Easy | [QueueUsingStacks.cs](Month_1–Foundations-Core-Patterns/LinkedList-Stack/Easy/QueueUsingStacks.cs) | Stack |
 | [Remove Nth Node from End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | Medium | [RemoveNthFromEnd.cs](Month_1–Foundations-Core-Patterns/LinkedList-Stack/Medium/RemoveNthFromEnd.cs) | Slow & Fast pointers |
+| [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | Medium | [DeleteNode.cs](Month_1–Foundations-Core-Patterns/LinkedList-Stack/Medium/DeleteNode.cs) | Copy-and-Skip |
 | [Reorder List](https://leetcode.com/problems/reorder-list/) | Medium | [ReorderList.cs](Month_1–Foundations-Core-Patterns/LinkedList-Stack/Medium/ReorderList.cs) | Slow & Fast pointers |
 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | Medium | [LRUCache.cs](Month_1–Foundations-Core-Patterns/LinkedList-Stack/Medium/LRUCache.cs) | LinkedList & Dictionary |
 | [Min Stack](https://leetcode.com/problems/min-stack/) | Medium | [MinStack.cs](Month_1–Foundations-Core-Patterns/LinkedList-Stack/Medium/MinStack.cs) | Stack |

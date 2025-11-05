@@ -25,3 +25,8 @@ public class Solution {
         return write; // length of compressed string
     }
 }
+
+/*  
+    Time Complexity: O(n) - We traverse the chars array once.
+    Space Complexity: O(1) - We use a constant amount of extra space.
+*/

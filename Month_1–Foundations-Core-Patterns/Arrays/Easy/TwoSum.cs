@@ -1,16 +1,18 @@
-public class Solution {
-    public int[] TwoSum(int[] nums, int target) {
+public class Solution
+{
+    public int[] TwoSum(int[] nums, int target)
+    {
         Dictionary<int, int> lookup = new Dictionary<int, int>();
         var result = new int[2];
-        for(int index=0; index<nums.Length; index++)
+        for (int index = 0; index < nums.Length; index++)
         {
             int complement = target - nums[index];
-            if(lookup.ContainsKey(complement))
+            if (lookup.ContainsKey(complement))
             {
-                result = new int[2]{index, lookup[complement]};
+                result = new int[2] { index, lookup[complement] };
                 break;
             }
-            else if(!lookup.ContainsKey(nums[index]))
+            else if (!lookup.ContainsKey(nums[index]))
             {
                 lookup.Add(nums[index], index);
             }
@@ -18,3 +20,8 @@ public class Solution {
         return result;
     }
 }
+
+/*  
+    Time Complexity: O(n) - We traverse the nums array once.
+    Space Complexity: O(n) - We use a dictionary to store the elements.
+*/
